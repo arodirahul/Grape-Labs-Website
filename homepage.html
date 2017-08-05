@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="We specialize in conducting workshops on robotics, embedded technology, Android app development and a lot more according to the client's needs. We offer products related to embedded platforms like the ATmega16 development board. We also develop educational apps for Android."/>
+    <meta name="author" content="Grape Labs India"/>
+    <meta name="keywords" content="DSP Labmate, Basic 8086, Basic 8051, learn msp430, celestial chase, c programs, atmega 16, workshops, android workshops, robotics workshops, grape labs, mysore, karnataka"/>
+    <meta name="DC.title" content="Grape Labs"/>
+
+    <title>Grape Labs</title>
+	<link rel="icon" type="image/x-generic" href="./favicon.png" />
+	
+	<style>
+	/* Paste this css to your style sheet file or under head tag */
+	/* This only works with JavaScript, 
+	if it's not present, don't show loader */
+	.no-js #loader { display: none;  }
+	.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+	.se-pre-con {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		background: url(img/Preloader.gif) center no-repeat #fff;
+	}
+	</style>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+	<script>
+		//paste this code under head tag or in a seperate js file.
+		// Wait for window load
+		$(window).load(function() {
+			// Animate loader off screen
+			$(".se-pre-con").fadeOut("slow");;
+		});
+	</script>
+	
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+	<link href="css/set1.css" rel="stylesheet">
+	<!--<link rel="stylesheet" href="css/mobile.css" type="text/css" media="Screen" />
+	<link rel="stylesheet" href="css/mobile.css" type="text/css" media="handheld" />-->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<!--<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js' type='text/javascript'> commented for preloader to display -->
+</head>
+
+<body>
+	<div class="se-pre-con"></div>
+	<div id="fb-root"></div>
+	<script>
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1"; 
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>	
+	<div class="brand"><img src="img/logo.png" alt="logo">Grape Labs</div>	
+    <div class="address-bar">#6, AIISH Layout | Mysore, KA 570026 | +91 96863 57210</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html"><span><img src="img/logosmall.png" alt="logo"> Grape Labs</span></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Products</a>
+                    </li>
+					<!--<li>
+                        <a href="workshop.html">Workshops</a>
+                    </li>-->
+					<li class="dropdown">
+						<a href="workshop.html" class="dropdown-toggle" data-toggle="dropdown">Workshops <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="workshop.html"><b>General Info/Gallery</b></a></li>
+							<li class="divider"></li>
+							<li><a href="robotics.html">Robotics Workshop</a></li>
+							<li class="divider"></li>
+							<li><a href="avrembedded.html">Embedded Workshop</a></li>
+							<li class="divider"></li>
+							<li><a href="arduino.html">Arduino Workshop</a></li>
+							<li class="divider"></li>
+							<li><a href="android.html">Android Workshop</a></li>
+						</ul>
+					</li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+							<div class="item active">
+                                <img class="img-responsive img-full" src="img/workshop_promo.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/boards.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                        <small> </small>
+                    </h2>
+                    <h1 class="brand-name">Discover. Innovate. Share.</h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>By
+                            <strong>Grape Labs</strong>
+                        </small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Our
+                        <strong>Mission</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
+                    <hr class="visible-xs">
+                    <p><strong>"Tell me and I forget. Teach me and I remember. Involve me and I learn."</strong> Benjamin Franklin</p>
+                    <p>We at Grape Labs focus on empowering students with skill sets that will help them complement their daily learning with practical knowledge.</p>
+                    <p>As our motto goes, we believe in disseminating of knowledge to those who yearn for it. Our <a href="workshop.html">workshops </a>provide the students with a platform where they can transform themselves to become 'makers'. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Testimonials
+                        <strong>from students</strong>
+                    </h2>
+                    <hr>
+                </div>
+				<div class="grid">
+					<!--<div>
+						<h4>Anson D'Souza (4th year MIT, Mysore)</h4>					
+							<img class="img-responsive img-border img-left round-img" src="./img/anson.jpg" alt="student review"/>						
+							<p><i>"Knowing to the edge ....this is what the awesome  workshop taught me. The workshop enlightened my awareness about 
+							practical stuff and brought my practices and skills to an extent of being professional."</i>
+						</p>					
+					</div>-->
+					
+					<div>
+					<img class="img-responsive img-border img-left round-img" align="left" style="float:left; margin-right:15px;" src="./img/anson.jpg" alt="student review">
+						<h4 align="left">Anson D'Souza (4th year MIT, Mysore)</h4><p align="justify"><i>"Knowing to the edge ....this is what the awesome
+							workshop taught me. The workshop enlightened my awareness about 
+							practical stuff and brought my practices and skills to an extent of being professional."</i>
+						</p>					 
+					</div>
+					<br><br><br><br><br>
+					
+					<div>
+					<img class="img-responsive img-border img-right round-img" align="right" style="float:right; margin-left:15px;" src="./img/nihal.jpg" alt="student review">
+						<h4 align="right">Nehal H (4th year ATME, Mysore)</h4><p align="justify"><i>"GRAPE Labs team provides outstanding workshops from the basics 
+							to the advanced levels of engineering. There is a perfect blend of automation and innovation throughout the process. I consider GRAPE 
+							team to be solely responsible for reigniting my passion towards automation. Thank you GRAPE."</i>
+						</p>
+					</div>
+					<!--<div>
+						<h4>Nehal H (4th year ATME, Mysore)</h4>	
+								
+							<img class="img-responsive img-border img-right round-img" src="./img/nihal.jpg" alt="student review"/>							
+							<p><i>"GRAPE Labs team provides outstanding workshops from the basics to the advanced levels of 
+							engineering. There is a perfect blend of automation and innovation throughout the process. I consider GRAPE 
+							team to be solely responsible for reigniting my passion towards automation. Thank you GRAPE."</i>
+						</p>
+					</div>-->
+							
+						
+				</div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+		<p class = "text-center" >Copyright &copy; Grape Labs 2016</p>
+            <div class="row">
+                <div class="text-center col-md-8 col-xs-12" style = "padding-bottom: 10px">
+                    <!--Facebook icon-->
+					<a href="https://www.facebook.com/GrapeEmbeddedSolutions/" target="_blank"><img alt="" src="img/fb.png" style="height:50px; width:50px" /> </a>&nbsp; &nbsp; &nbsp;
+					<!--Google+ icon-->
+					<a href="http://plus.google.com" target="_blank"><img alt="" src="img/gp.png" style="height:50px; width:50px" /> </a>&nbsp; &nbsp;&nbsp;
+					<!--Twitter icon-->
+					<a href="http://twitter.com/flashissue" target="_blank"><img alt="" src="img/twit.png" style="height:50px; width:50px" /> </a>&nbsp; &nbsp;&nbsp;
+					<!--Linkedin icon-->
+					<a href="https://www.linkedin.com/in/grape-labs-542222115?trk=nav_responsive_tab_profile_pic" target="_blank"><img alt="" src="img/lin.png" style="height:50px; width:50px" /> </a>
+                </div>
+				<br>
+				<div class="text-center fb-page col-xs-12 col-md-4" data-href="https://www.facebook.com/GrapeEmbeddedSolutions" data-width="300" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/GrapeEmbeddedSolutions"><a href="https://www.facebook.com/GrapeEmbeddedSolutions">Grape Labs</a></blockquote></div></div>&nbsp; &nbsp; &nbsp;
+            </div>
+        </div>
+	</footer>
+			
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+	
+	function preload(arrayOfImages) {
+			$(arrayOfImages).each(function(){
+				$('<img/>')[0].src = this;
+				// Alternatively you could use:
+				// (new Image()).src = this;
+			});
+		}
+		window.onload = preload([
+			'img/bg.jpg'
+		]);
+		
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	
+	(function ($) {
+	  $(document).ready(function(){
+		
+		// hide .navbar first
+		$(".navbar-auto-hide").hide();
+		
+		// fade in .navbar
+		$(function () {
+			$(window).scroll(function () {
+				// set distance user needs to scroll before we fadeIn navbar
+				if ($(this).scrollTop() > 100) {
+					$('.navbar-auto-hide').fadeIn();
+				} else {
+					$('.navbar-auto-hide').fadeOut();
+				}
+			});
+		
+		});
+	});
+	  }(jQuery));
+
+	$('ul.nav li.dropdown').hover(function() {
+		$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+	}, function() {
+		$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+		});
+	
+	function imgResize() {
+			[].forEach.call( document.querySelectorAll('.round-img'), function(el) {
+			el.style.borderRadius = el.width / 2 + 'px';
+			});
+		}
+		window.onload = imgResize;
+		window.onresize = imgResize;
+    </script>
+
+</body>
+
+</html>
